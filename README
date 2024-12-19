@@ -13,5 +13,6 @@ Modellizzare la struttura di una tabella per memorizzare tutti i dati riguardant
 | prezzo      | INT         | NOT NULL                            |         |
 | condizioni  | CHAR(1)     | NOT NULL - DEFAULT "U" (USATO)      |         |
 | provenienza | CHAR(5)     | NOT NULL - DEFAULT(it-IT)           |         |
+| consumo     | CHAR(1)     | NOT NULL                            |         |
 | descrizione | TEXT        | NULL                                |         |
 | data        | DATE        | NULL                                |         |
