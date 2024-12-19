@@ -1,0 +1,17 @@
+Modellizzare la struttura di una tabella per memorizzare tutti i dati riguardanti delle auto usate messe in vendita da un concessionario
+
+## DB
+
+| name        | type        | attributes                          | key     |
+| ----------- | ----------- | ----------------------------------- | ------- |
+| id          | BIGINT(20)  | NOT NULL - AUTOINCREMENT - UNSIGNED | PRIMARY |
+| marca       | VARCHAR(50) | NOT NULL                            |         |
+| modello     | VARCHAR(50) | NOT NULL                            |         |
+| anno        | YEAR        | NOT NULL                            |         |
+| km          | INT         | NOT NULL                            |         |
+| colore      | VARCHAR(30) | NOT NULL                            |         |
+| prezzo      | INT         | NOT NULL                            |         |
+| condizioni  | CHAR(1)     | NOT NULL - DEFAULT "U" (USATO)      |         |
+| provenienza | CHAR(5)     | NOT NULL - DEFAULT(it-IT)           |         |
+| descrizione | TEXT        | NULL                                |         |
+| data        | DATE        | NULL                                |         |
